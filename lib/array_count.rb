@@ -9,4 +9,5 @@ def count_empty_strings(array)
     if index.empty?
       index
     end
+    end
 end
