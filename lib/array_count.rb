@@ -8,4 +8,5 @@ def count_empty_strings(array)
   array.count do |index|
     if index.empty?
       index
+    end
 end
