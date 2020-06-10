@@ -9,4 +9,5 @@ def count_empty_strings(array)
     index.class == String do
       if index == " "
     end
+  end
 end
