@@ -6,8 +6,6 @@ end
 
 def count_empty_strings(array)
   array.count do |index|
-    index.class == String do
-      if index == " "
-    end
-  end
+    if index.empty?
+      index
 end
