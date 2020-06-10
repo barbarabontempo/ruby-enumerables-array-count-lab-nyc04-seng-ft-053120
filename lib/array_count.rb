@@ -6,7 +6,6 @@ end
 
 def count_empty_strings(array)
   array.count do |index|
-    array.length <= 0
-    index
+    index.length <= 0
     end
 end
